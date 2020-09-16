@@ -16,16 +16,16 @@ namespace Beeper
                 try
                 {
                     Console.WriteLine("You have 2 minutes");
-                    Thread.Sleep(5000);
+                    Thread.Sleep(50000);
                     beep06.Play();
                     Console.WriteLine("1 minute 10 seconds left");
-                    Thread.Sleep(5000);
+                    Thread.Sleep(10000);
                     beep07.Play();
                     Console.WriteLine("1 minute left");
-                    Thread.Sleep(5000);
+                    Thread.Sleep(50000);
                     beep08.Play();
                     Console.WriteLine("10 seconds left");
-                    Thread.Sleep(5000);
+                    Thread.Sleep(10000);
                     beep09.Play();
                 }
                 catch (ThreadInterruptedException e)
